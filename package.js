@@ -9,7 +9,7 @@ Package.on_use(function(api, where) {
 		api.export("moment");
 	}
 
-	api.add_files('lib/moment/moment-with-locales.js');
+	api.add_files('lib/moment-with-locales.js');
 	api.add_files('lib/export-moment.js');
 });
 
